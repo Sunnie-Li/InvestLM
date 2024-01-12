@@ -89,10 +89,15 @@ def main(
             return response
         print("finish loading model..")
 
-        prompt = """Nvidia led the tech sector higher yesterday as it continues its bull run after KeyBanc Capital Markets raised their price target from $550 to $620 last week. Micron Technologies closed +2.5% higher after gapping up with Apple and Google, both gaining nearly +1%.
-            
-        Based on the news, should I buy Nvidia or sell Nvidia stocks?"""
         
+        # prompt = """Nvidia led the tech sector higher yesterday as it continues its bull run after KeyBanc Capital Markets raised their price target from $550 to $620 last week. Micron Technologies closed +2.5% higher after gapping up with Apple and Google, both gaining nearly +1%.
+            
+        # Based on the news, should I buy Nvidia or sell Nvidia stocks?"""
+        
+        prompt = """Apple Inc. issues unsecured short-term promissory notes pursuant to a commercial paper program. The Company uses net proceeds from the commercial paper program for general corporate purposes, including dividends and share repurchases. As of September 30, 2023 and September 24, 2022, the Company had $6.0 billion and $10.0 billion of commercial paper outstanding, respectively, with maturities generally less than nine months. The weighted-average interest rate of the Company’s commercial paper was 5.28% and 2.31% as of September 30, 2023 and September 24, 2022, respectively. 
+
+        Based on the news, should I buy Apple Inc. or sell Apple Inc. stocks?"""
+
         result = generator(instruction = prompt,
                                 input = None,
                                 temperature = 0.1,
