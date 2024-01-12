@@ -4,6 +4,7 @@ from transformers import AutoTokenizer,GenerationConfig
 import torch
 from peft import PeftModel
 
+
 PROMPT_DICT = {
     "prompt_input": (
         "Below is an instruction that describes a task, paired with further context. "
@@ -94,18 +95,38 @@ def main(
             
         # Based on the news, should I buy Nvidia or sell Nvidia stocks?"""
         
-        prompt = """Apple Inc. issues unsecured short-term promissory notes pursuant to a commercial paper program. The Company uses net proceeds from the commercial paper program for general corporate purposes, including dividends and share repurchases. As of September 30, 2023 and September 24, 2022, the Company had $6.0 billion and $10.0 billion of commercial paper outstanding, respectively, with maturities generally less than nine months. The weighted-average interest rate of the Company’s commercial paper was 5.28% and 2.31% as of September 30, 2023 and September 24, 2022, respectively. 
+        
+        def read_file_by_paragraphs(filename):
+            with open(filename, 'r', encoding='utf-8') as file:
+                prompts = file.read().split('\n\n')  # Splitting by two newline characters
+                return [prompt.replace('\n', ' ') for prompt in prompts]  # Replacing newlines within paragraphs
 
-        Based on the news, should I buy Apple Inc. or sell Apple Inc. stocks?"""
+        def write_to_file(inf_results, inference):
+            with open(inf_results, 'w', encoding='utf-8') as file:
+                file.write(inference + '\n\n') 
+            
+            
+        reports_filename = 'reports_10k.txt'  # The file with reports selected from 10K reports of companies.
+        results_filename = 'results_10k.txt'  # The file with inferred results. Each follows its question.
 
-        result = generator(instruction = prompt,
-                                input = None,
-                                temperature = 0.1,
-                                top_p = 0.75,
-                                top_k = 40,
-                                num_beams = 1,
+        prompt_q = '''Based on the news, should I buy or sell the company stocks?'''
+
+        reports = read_file_by_paragraphs(reports_filename)
+
+        for paragraph in reports:
+            
+            prompt = paragraph + "\n\n" + prompt_q
+
+            result = generator(instruction = prompt,
+                                 input = None,
+                                 temperature = 0.1,
+                                 top_p = 0.75,
+                                 top_k = 40,
+                                 num_beams = 1,
                                 max_new_tokens = 512)
-        print(result)
+            
+            write_to_file(results_filename, result + "\n\n")
+            print(result)
 
 if __name__ == "__main__":
     fire.Fire(main)
