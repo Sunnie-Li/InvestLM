@@ -107,7 +107,7 @@ def main(
 
         def write_to_file(inf_results, inference):
             with open(inf_results, 'w', encoding='utf-8') as file:
-                file.write(inference + '\n\n') 
+                file.write(inference) 
             
             
         reports_filename = 'reports_10k.txt'  # The file with reports selected from 10K reports of companies.
@@ -116,12 +116,13 @@ def main(
         prompt_q = '''Based on the news, should I buy or sell the company stocks?'''
 
         reports = read_file_by_paragraphs(reports_filename)
+        results = ""
 
         for paragraph in reports:
             
             prompt = paragraph + "\n\n" + prompt_q
 
-            result = generator(instruction = prompt,
+            output = generator(instruction = prompt,
                                  input = None,
                                  temperature = 0.1,
                                  top_p = 0.75,
@@ -129,8 +130,10 @@ def main(
                                  num_beams = 1,
                                 max_new_tokens = 512)
             
-            write_to_file(results_filename, result + "\n\n")
-            print(result)
+            results += output + "\n\n"
+            print(output)
+
+        write_to_file(results_filename, results)
 
 if __name__ == "__main__":
     fire.Fire(main)
