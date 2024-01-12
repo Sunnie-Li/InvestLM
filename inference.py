@@ -30,13 +30,15 @@ def main(
     lora_weights: str = "",
     cache_dir: str = "",
 ):
-        print("use Linear Scaled RoPE...")  
-        from util.llama_rope_scaled_monkey_patch import replace_llama_rope_with_scaled_rope
-        replace_llama_rope_with_scaled_rope()
+        # print("use Linear Scaled RoPE...")  
+        # from util.llama_rope_scaled_monkey_patch import replace_llama_rope_with_scaled_rope
+        # replace_llama_rope_with_scaled_rope()
 
         model = transformers.AutoModelForCausalLM.from_pretrained(
                             base_model,
-                            torch_dtype=torch.float16,
+                            torch_dtype=torch.bfloat16,
+                            # load_in_8bit=True,
+                            use_flash_attention_2=True,
                             cache_dir=cache_dir,
                             device_map="auto",
                     )
@@ -46,8 +48,9 @@ def main(
                     lora_weights,
                     device_map="auto",
                     cache_dir=cache_dir,
-                    torch_dtype=torch.float16,
+                    torch_dtype=torch.bfloat16,
                 )
+        print("Finished loading PEFT model")
         tokenizer =  AutoTokenizer.from_pretrained(base_model,use_fast=False,cache_dir=cache_dir)
         tokenizer.pad_token = tokenizer.unk_token
         model.eval()
@@ -77,6 +80,7 @@ def main(
 
             # Without streaming
             with torch.no_grad():
+                print("Generating!")
                 generation_output = model.generate(
                         input_ids=input_ids,
                         generation_config=generation_config,
