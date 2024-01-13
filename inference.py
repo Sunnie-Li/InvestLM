@@ -154,8 +154,8 @@ def main(
                 file.write(inference) 
             
             
-        reports_filename = 'reports_10k.txt'  # The file with reports selected from 10K reports of companies.
-        results_filename = 'results_10k.txt'  # The file with inferred results. Each follows its question.
+        reports_filename = 'reports_abbott.txt'  # The file with reports selected from 10K reports of companies.
+        results_filename = 'results_abbott.txt'  # The file with inferred results. Each follows its question.
 
         prompt_q = '''Based on the news, should I buy or sell the company stocks?'''
 
