@@ -4,6 +4,7 @@ from transformers import AutoTokenizer,GenerationConfig
 import torch
 from peft import PeftModel
 from tqdm import tqdm
+import os
 
 PROMPT_DICT = {
     "prompt_input": (
@@ -108,7 +109,7 @@ def main(
         # Read the entire file as a long string, then split the string
             
         # sample_text = """
-        # [heading]heading 1[/heading]
+        # [][heading]heading 1[/heading]
 
         # text 1 
 
@@ -117,7 +118,7 @@ def main(
         # text 2 
         # """
 
-        def read_split_text_by_headings(filename):
+        def read_by_headings(filename):
             with open(filename, 'r', encoding='utf-8') as file:
                 text = file.read() # entire file read as a long string
             
@@ -145,7 +146,46 @@ def main(
                 paragraphs.append(current_heading + ' ' + current_paragraph)
 
             return paragraphs
+        
+        def read_with_title_and_heading(filename):
+            with open(filename, 'r', encoding='utf-8') as file:
+                text = file.read() # entire file read as a long string
+            
+            lines = text.strip().split('\n\n')
+            paragraphs = []
+            current_title = ''
+            current_heading = ''
+            current_paragraph = ''
+            title_found = False  # Flag to check if at least one title has been found
 
+            for line in lines:
+                line = line.strip()
+                if line.startswith('[title]'):
+                    current_title = line[7:-8]  # Extract title text
+                    title_found = True
+                    # Reset heading and paragraph when a new title is found
+                    current_heading = ''
+                    current_paragraph = ''
+                elif line.startswith('[heading]') and line.endswith('[/heading]'):
+                    # Save previous heading and paragraph if they exist
+                    if title_found and current_heading and current_paragraph:
+                        full_text = f"{current_title}: {current_heading} {current_paragraph}"
+                        paragraphs.append(full_text)
+                    
+                    # Reset for new heading and paragraph
+                    current_heading = line[9:-10]  # Extracting the heading text
+                    current_paragraph = '' # Reset paragraph
+                else:
+                    if title_found:
+                        # Accumulating lines into the current paragraph only if a title has been found
+                        current_paragraph += (' ' if current_paragraph else '') + line
+
+            # Save the last heading and paragraph if they exist
+            if title_found and current_heading and current_paragraph:
+                full_text = f"{current_title}: {current_heading} {current_paragraph}"
+                paragraphs.append(full_text)
+
+            return paragraphs
 
 
 
@@ -153,15 +193,23 @@ def main(
             with open(inf_results, 'w', encoding='utf-8') as file:
                 file.write(inference) 
             
-            
-        reports_filename = 'reports_abbott.txt'  # The file with reports selected from 10K reports of companies.
-        results_filename = 'results_abbott.txt'  # The file with inferred results. Each follows its question.
+        # I used cp /Users/sunnielee/Desktop/OneDriveUoE/PROJECT/risk_factors/0000001800/2023-02-17.txt /Users/sunnielee/Library/CloudStorage/OneDrive-UniversityofEdinburgh/InvestLM/reports_abbott.txt 
+                # to copy the file from the extracted risk factors as the txt to be read. 0000001800 stands for Abbott.   
+        reports_filename = 'reports/reports_abbott.txt'  # The file with reports selected from 10K reports of companies.
+        results_filename = 'results_txt/results_abbott.txt'  # The file with inferred results.
 
-        prompt_q = '''Based on the news, should I buy or sell the company stocks?'''
+        # Check if the file results_filename exists
+        if not os.path.exists(results_filename):
+        # If the file does not exist, create a new empty file
+            with open(results_filename, 'w') as file:
+                pass  # Creating an empty file
+
+
+        prompt_q = '''Based on the news, should I buy or sell the company stocks?''' # question
 
         # reports = read_file_by_paragraphs(reports_filename)
 
-        reports = read_split_text_by_headings(reports_filename) 
+        reports = read_with_title_and_heading(reports_filename) 
         results = ""
 
         for paragraph in tqdm(reports):
