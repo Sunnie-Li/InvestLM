@@ -3,7 +3,7 @@ import transformers
 from transformers import AutoTokenizer,GenerationConfig
 import torch
 from peft import PeftModel
-
+from tqdm import tqdm
 
 PROMPT_DICT = {
     "prompt_input": (
@@ -105,6 +105,50 @@ def main(
                 prompts = file.read().split('\n\n')  # Splitting by two newline characters
                 return [prompt.replace('\n', ' ') for prompt in prompts]  # Replacing newlines within paragraphs
 
+        # Read the entire file as a long string, then split the string
+            
+        # sample_text = """
+        # [heading]heading 1[/heading]
+
+        # text 1 
+
+        # [heading]heading 2[/heading]
+
+        # text 2 
+        # """
+
+        def read_split_text_by_headings(filename):
+            with open(filename, 'r', encoding='utf-8') as file:
+                text = file.read() # entire file read as a long string
+            
+            lines = text.strip().split('\n\n')
+            paragraphs = []
+            current_heading = ''
+            current_paragraph = ''
+            
+            for line in lines:
+                line = line.strip()
+                if line.startswith('[heading]') and line.endswith('[/heading]'):
+                    # Save the previous paragraph if it exists
+                    if current_heading and current_paragraph:
+                        paragraphs.append(current_heading + ' ' + current_paragraph)
+                    
+                    # Reset for new heading and paragraph
+                    current_heading = line[9:-10]  # Extracting the heading text
+                    current_paragraph = ''
+                else:
+                    # Accumulating lines into the current paragraph
+                    current_paragraph += (' ' if current_paragraph else '') + line
+
+            # Save the last paragraph if it exists
+            if current_heading and current_paragraph:
+                paragraphs.append(current_heading + ' ' + current_paragraph)
+
+            return paragraphs
+
+
+
+
         def write_to_file(inf_results, inference):
             with open(inf_results, 'w', encoding='utf-8') as file:
                 file.write(inference) 
@@ -115,10 +159,12 @@ def main(
 
         prompt_q = '''Based on the news, should I buy or sell the company stocks?'''
 
-        reports = read_file_by_paragraphs(reports_filename)
+        # reports = read_file_by_paragraphs(reports_filename)
+
+        reports = read_split_text_by_headings(reports_filename) 
         results = ""
 
-        for paragraph in reports:
+        for paragraph in tqdm(reports):
             
             prompt = paragraph + "\n\n" + prompt_q
 
