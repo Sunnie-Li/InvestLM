@@ -101,7 +101,7 @@ def main(
         # Based on the news, should I buy Nvidia or sell Nvidia stocks?"""
         
         
-        def read_file_by_paragraphs(filename):
+        def read_by_paragraphs(filename):
             with open(filename, 'r', encoding='utf-8') as file:
                 prompts = file.read().split('\n\n')  # Splitting by two newline characters
                 return [prompt.replace('\n', ' ') for prompt in prompts]  # Replacing newlines within paragraphs
@@ -147,7 +147,7 @@ def main(
 
             return paragraphs
         
-        def read_with_title_and_heading(filename):
+        def read_by_titles_and_headings(filename):
             with open(filename, 'r', encoding='utf-8') as file:
                 text = file.read() # entire file read as a long string
             
@@ -207,9 +207,9 @@ def main(
 
         prompt_q = '''Based on the news, should I buy or sell the company stocks?''' # question
 
-        # reports = read_file_by_paragraphs(reports_filename)
+        # reports = read_by_paragraphs(reports_filename)
 
-        reports = read_with_title_and_heading(reports_filename) 
+        reports = read_by_titles_and_headings(reports_filename) 
         results = ""
 
         for paragraph in tqdm(reports):
