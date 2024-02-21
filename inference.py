@@ -213,7 +213,9 @@ def main(
 
         # reports = read_by_paragraphs(reports_filename)
 
-        reports = read_entire_file(reports_filename) 
+        reports = read_entire_file(reports_filename)
+        if isinstance(reports, str):
+            reports = [reports]
         results = ""
 
         for paragraph in tqdm(reports):
