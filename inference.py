@@ -201,7 +201,7 @@ def main(
         # I used cp /Users/sunnielee/Desktop/OneDriveUoE/PROJECT/risk_factors/0000001800/2023-02-17.txt /Users/sunnielee/Library/CloudStorage/OneDrive-UniversityofEdinburgh/InvestLM/reports_abbott.txt 
                 # to copy the file from the extracted risk factors as the txt to be read. 0000001800 stands for Abbott.   
         reports_filename = 'reports/reports_demo.txt'  # The file with reports selected from 10K reports of companies.
-        results_filename = 'results_txt/llama7b/results_demo.txt'  # The file with inferred results.
+        results_filename = 'results_txt/gemma7b/results_demo.txt'  # The file with inferred results.
 
         # Check if the file results_filename exists
         if not os.path.exists(results_filename):
