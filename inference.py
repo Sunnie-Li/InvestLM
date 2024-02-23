@@ -17,11 +17,19 @@ PROMPT_DICT = {
         "Write a response that appropriately completes the request.\n\n"
         "Instruction:\n{instruction}\n\nResponse:"
     ),
+    "prompt_with_chat": (
+        "<<SYS>>\nBelow is an instruction that describes a task. "
+        "Write a response that appropriately completes the request.\n\n <</SYS>>\n\n"
+        "[INST] {instruction}[/INST]\n\n Input:\n{input}\n\n Response:"
+    )
 }
 
-def generate_prompt(instruction, input=None):
+def generate_prompt(instruction, input=None, is_chat=False):
     if input:
-        return PROMPT_DICT["prompt_input"].format(instruction=instruction,input=input)
+        if is_chat:
+            return PROMPT_DICT["prompt_with_chat"].format(instruction=instruction,input=input)
+        else:
+            return PROMPT_DICT["prompt_input"].format(instruction=instruction,input=input)
     else:
         return PROMPT_DICT["prompt_no_input"].format(instruction=instruction)
 
@@ -57,6 +65,8 @@ def main(
         tokenizer.pad_token = tokenizer.unk_token
         model.eval()
 
+        is_chat = "chat" in base_model
+
         def generator(
                 instruction,
                 input=None,
@@ -68,7 +78,7 @@ def main(
                 **kwargs,
         ):
 
-            ins_f = generate_prompt(instruction,input)
+            ins_f = generate_prompt(instruction,input,is_chat)
             inputs  =  tokenizer(ins_f, return_tensors="pt")
             input_ids = inputs["input_ids"].cuda()
             generation_config = GenerationConfig(
@@ -201,7 +211,19 @@ def main(
         # I used cp /Users/sunnielee/Desktop/OneDriveUoE/PROJECT/risk_factors/0000001800/2023-02-17.txt /Users/sunnielee/Library/CloudStorage/OneDrive-UniversityofEdinburgh/InvestLM/reports_abbott.txt 
                 # to copy the file from the extracted risk factors as the txt to be read. 0000001800 stands for Abbott.   
         reports_filename = 'reports/reports_demo.txt'  # The file with reports selected from 10K reports of companies.
-        results_filename = 'results_txt/gemma7b/results_demo.txt'  # The file with inferred results.
+        
+        if "falcon_7b_instruct" in base_model:
+            results_filename = 'results_txt/falcon_7b_instruct/results_demo.txt'
+        elif "gemma" in base_model:
+            results_filename = 'results_txt/gemma7b/results_demo.txt'
+        elif "investLM" in base_model:
+            results_filename = 'results_txt/investLM/results_demo.txt'
+        elif "Llama-2-7b-chat" in base_model:
+            results_filename = 'results_txt/llama7b_chat/results_demo.txt'
+        else:
+            results_filename = 'results_txt/results_demo.txt'
+        
+        # The file with inferred results.
 
         # Check if the file results_filename exists
         if not os.path.exists(results_filename):
