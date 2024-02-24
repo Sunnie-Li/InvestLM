@@ -1,0 +1,28 @@
+nohup: ignoring input
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]/usr/local/lib/python3.8/dist-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.19s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.43s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.54s/it]
+finish loading model..
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]
+Generating!
+Traceback (most recent call last):
+  File "inference.py", line 262, in <module>
+    fire.Fire(main)
+  File "/usr/local/lib/python3.8/dist-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/usr/local/lib/python3.8/dist-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/usr/local/lib/python3.8/dist-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "inference.py", line 248, in main
+    output = generator(instruction = prompt,
+  File "inference.py", line 96, in generator
+    generation_output = model.generate(
+  File "/usr/local/lib/python3.8/dist-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/transformers/generation/utils.py", line 1592, in generate
+    return self.sample(
+  File "/usr/local/lib/python3.8/dist-packages/transformers/generation/utils.py", line 2739, in sample
+    raise ValueError("If `eos_token_id` is defined, make sure that `pad_token_id` is defined.")
+ValueError: If `eos_token_id` is defined, make sure that `pad_token_id` is defined.
