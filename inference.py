@@ -62,7 +62,7 @@ def main(
                     )
             print("Finished loading PEFT model")
         tokenizer =  AutoTokenizer.from_pretrained(base_model,use_fast=False,cache_dir=cache_dir)
-        tokenizer.pad_token = tokenizer.unk_token
+        tokenizer.pad_token=tokenizer.eos_token
         model.eval()
 
         is_chat = "chat" in base_model
