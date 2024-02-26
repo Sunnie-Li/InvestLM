@@ -1,508 +1,10 @@
 nohup: ignoring input
-Downloading config.json:   0%|          | 0.00/596 [00:00<?, ?B/s]Downloading config.json: 100%|██████████| 596/596 [00:00<00:00, 95.5kB/s]
-Downloading (…)fetensors.index.json:   0%|          | 0.00/25.1k [00:00<?, ?B/s]Downloading (…)fetensors.index.json: 100%|██████████| 25.1k/25.1k [00:00<00:00, 6.56MB/s]
-Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]
-Downloading (…)of-00003.safetensors:   0%|          | 0.00/4.94G [00:00<?, ?B/s][A
-Downloading (…)of-00003.safetensors:   0%|          | 10.5M/4.94G [00:00<01:00, 81.5MB/s][A
-Downloading (…)of-00003.safetensors:   1%|          | 31.5M/4.94G [00:00<00:33, 147MB/s] [A
-Downloading (…)of-00003.safetensors:   1%|▏         | 62.9M/4.94G [00:00<00:25, 192MB/s][A
-Downloading (…)of-00003.safetensors:   2%|▏         | 94.4M/4.94G [00:00<00:22, 220MB/s][A
-Downloading (…)of-00003.safetensors:   3%|▎         | 126M/4.94G [00:00<00:20, 235MB/s] [A
-Downloading (…)of-00003.safetensors:   3%|▎         | 157M/4.94G [00:00<00:19, 244MB/s][A
-Downloading (…)of-00003.safetensors:   4%|▍         | 189M/4.94G [00:00<00:19, 250MB/s][A
-Downloading (…)of-00003.safetensors:   4%|▍         | 220M/4.94G [00:00<00:18, 256MB/s][A
-Downloading (…)of-00003.safetensors:   5%|▌         | 252M/4.94G [00:01<00:18, 259MB/s][A
-Downloading (…)of-00003.safetensors:   6%|▌         | 283M/4.94G [00:01<00:17, 261MB/s][A
-Downloading (…)of-00003.safetensors:   6%|▋         | 315M/4.94G [00:01<00:17, 260MB/s][A
-Downloading (…)of-00003.safetensors:   7%|▋         | 346M/4.94G [00:01<00:17, 260MB/s][A
-Downloading (…)of-00003.safetensors:   8%|▊         | 377M/4.94G [00:01<00:17, 258MB/s][A
-Downloading (…)of-00003.safetensors:   8%|▊         | 409M/4.94G [00:01<00:18, 251MB/s][A
-Downloading (…)of-00003.safetensors:   9%|▉         | 440M/4.94G [00:01<00:18, 248MB/s][A
-Downloading (…)of-00003.safetensors:  10%|▉         | 472M/4.94G [00:01<00:17, 254MB/s][A
-Downloading (…)of-00003.safetensors:  10%|█         | 503M/4.94G [00:02<00:17, 260MB/s][A
-Downloading (…)of-00003.safetensors:  11%|█         | 535M/4.94G [00:02<00:16, 261MB/s][A
-Downloading (…)of-00003.safetensors:  11%|█▏        | 566M/4.94G [00:02<00:16, 263MB/s][A
-Downloading (…)of-00003.safetensors:  12%|█▏        | 598M/4.94G [00:02<00:16, 264MB/s][A
-Downloading (…)of-00003.safetensors:  13%|█▎        | 629M/4.94G [00:02<00:16, 265MB/s][A
-Downloading (…)of-00003.safetensors:  13%|█▎        | 661M/4.94G [00:02<00:16, 267MB/s][A
-Downloading (…)of-00003.safetensors:  14%|█▍        | 692M/4.94G [00:02<00:15, 267MB/s][A
-Downloading (…)of-00003.safetensors:  15%|█▍        | 724M/4.94G [00:02<00:16, 261MB/s][A
-Downloading (…)of-00003.safetensors:  15%|█▌        | 755M/4.94G [00:03<00:16, 257MB/s][A
-Downloading (…)of-00003.safetensors:  16%|█▌        | 786M/4.94G [00:03<00:16, 258MB/s][A
-Downloading (…)of-00003.safetensors:  17%|█▋        | 818M/4.94G [00:03<00:15, 260MB/s][A
-Downloading (…)of-00003.safetensors:  17%|█▋        | 849M/4.94G [00:03<00:15, 261MB/s][A
-Downloading (…)of-00003.safetensors:  18%|█▊        | 881M/4.94G [00:03<00:15, 255MB/s][A
-Downloading (…)of-00003.safetensors:  18%|█▊        | 912M/4.94G [00:03<00:16, 250MB/s][A
-Downloading (…)of-00003.safetensors:  19%|█▉        | 944M/4.94G [00:03<00:16, 242MB/s][A
-Downloading (…)of-00003.safetensors:  20%|█▉        | 975M/4.94G [00:03<00:16, 240MB/s][A
-Downloading (…)of-00003.safetensors:  20%|██        | 1.01G/4.94G [00:04<00:16, 240MB/s][A
-Downloading (…)of-00003.safetensors:  21%|██        | 1.04G/4.94G [00:04<00:16, 242MB/s][A
-Downloading (…)of-00003.safetensors:  22%|██▏       | 1.07G/4.94G [00:04<00:16, 240MB/s][A
-Downloading (…)of-00003.safetensors:  22%|██▏       | 1.10G/4.94G [00:04<00:15, 242MB/s][A
-Downloading (…)of-00003.safetensors:  23%|██▎       | 1.13G/4.94G [00:04<00:15, 243MB/s][A
-Downloading (…)of-00003.safetensors:  24%|██▎       | 1.16G/4.94G [00:04<00:15, 244MB/s][A
-Downloading (…)of-00003.safetensors:  24%|██▍       | 1.20G/4.94G [00:04<00:15, 236MB/s][A
-Downloading (…)of-00003.safetensors:  25%|██▍       | 1.23G/4.94G [00:04<00:15, 238MB/s][A
-Downloading (…)of-00003.safetensors:  25%|██▌       | 1.26G/4.94G [00:05<00:15, 240MB/s][A
-Downloading (…)of-00003.safetensors:  26%|██▌       | 1.29G/4.94G [00:05<00:15, 241MB/s][A
-Downloading (…)of-00003.safetensors:  27%|██▋       | 1.32G/4.94G [00:05<00:15, 241MB/s][A
-Downloading (…)of-00003.safetensors:  27%|██▋       | 1.35G/4.94G [00:05<00:14, 242MB/s][A
-Downloading (…)of-00003.safetensors:  28%|██▊       | 1.38G/4.94G [00:05<00:14, 243MB/s][A
-Downloading (…)of-00003.safetensors:  29%|██▊       | 1.42G/4.94G [00:05<00:14, 244MB/s][A
-Downloading (…)of-00003.safetensors:  29%|██▉       | 1.45G/4.94G [00:05<00:14, 245MB/s][A
-Downloading (…)of-00003.safetensors:  30%|██▉       | 1.48G/4.94G [00:05<00:14, 245MB/s][A
-Downloading (…)of-00003.safetensors:  31%|███       | 1.51G/4.94G [00:06<00:13, 247MB/s][A
-Downloading (…)of-00003.safetensors:  31%|███       | 1.54G/4.94G [00:06<00:13, 247MB/s][A
-Downloading (…)of-00003.safetensors:  32%|███▏      | 1.57G/4.94G [00:06<00:13, 241MB/s][A
-Downloading (…)of-00003.safetensors:  32%|███▏      | 1.60G/4.94G [00:06<00:13, 243MB/s][A
-Downloading (…)of-00003.safetensors:  33%|███▎      | 1.64G/4.94G [00:06<00:14, 233MB/s][A
-Downloading (…)of-00003.safetensors:  34%|███▎      | 1.67G/4.94G [00:06<00:14, 225MB/s][A
-Downloading (…)of-00003.safetensors:  34%|███▍      | 1.70G/4.94G [00:06<00:14, 225MB/s][A
-Downloading (…)of-00003.safetensors:  35%|███▌      | 1.73G/4.94G [00:07<00:14, 228MB/s][A
-Downloading (…)of-00003.safetensors:  36%|███▌      | 1.76G/4.94G [00:07<00:13, 229MB/s][A
-Downloading (…)of-00003.safetensors:  36%|███▋      | 1.79G/4.94G [00:07<00:13, 232MB/s][A
-Downloading (…)of-00003.safetensors:  37%|███▋      | 1.82G/4.94G [00:07<00:14, 221MB/s][A
-Downloading (…)of-00003.safetensors:  38%|███▊      | 1.86G/4.94G [00:07<00:14, 211MB/s][A
-Downloading (…)of-00003.safetensors:  38%|███▊      | 1.89G/4.94G [00:07<00:14, 214MB/s][A
-Downloading (…)of-00003.safetensors:  39%|███▉      | 1.92G/4.94G [00:07<00:13, 222MB/s][A
-Downloading (…)of-00003.safetensors:  39%|███▉      | 1.95G/4.94G [00:08<00:13, 229MB/s][A
-Downloading (…)of-00003.safetensors:  40%|████      | 1.98G/4.94G [00:08<00:12, 234MB/s][A
-Downloading (…)of-00003.safetensors:  41%|████      | 2.01G/4.94G [00:08<00:12, 237MB/s][A
-Downloading (…)of-00003.safetensors:  41%|████▏     | 2.04G/4.94G [00:08<00:12, 240MB/s][A
-Downloading (…)of-00003.safetensors:  42%|████▏     | 2.08G/4.94G [00:08<00:11, 241MB/s][A
-Downloading (…)of-00003.safetensors:  43%|████▎     | 2.11G/4.94G [00:08<00:11, 243MB/s][A
-Downloading (…)of-00003.safetensors:  43%|████▎     | 2.14G/4.94G [00:08<00:11, 234MB/s][A
-Downloading (…)of-00003.safetensors:  44%|████▍     | 2.17G/4.94G [00:09<00:12, 226MB/s][A
-Downloading (…)of-00003.safetensors:  45%|████▍     | 2.20G/4.94G [00:09<00:12, 211MB/s][A
-Downloading (…)of-00003.safetensors:  45%|████▌     | 2.23G/4.94G [00:09<00:12, 219MB/s][A
-Downloading (…)of-00003.safetensors:  46%|████▌     | 2.26G/4.94G [00:09<00:12, 217MB/s][A
-Downloading (…)of-00003.safetensors:  46%|████▋     | 2.30G/4.94G [00:09<00:11, 225MB/s][A
-Downloading (…)of-00003.safetensors:  47%|████▋     | 2.33G/4.94G [00:09<00:11, 223MB/s][A
-Downloading (…)of-00003.safetensors:  48%|████▊     | 2.36G/4.94G [00:09<00:11, 233MB/s][A
-Downloading (…)of-00003.safetensors:  48%|████▊     | 2.39G/4.94G [00:09<00:11, 230MB/s][A
-Downloading (…)of-00003.safetensors:  49%|████▉     | 2.42G/4.94G [00:10<00:14, 178MB/s][A
-Downloading (…)of-00003.safetensors:  50%|████▉     | 2.45G/4.94G [00:10<00:12, 192MB/s][A
-Downloading (…)of-00003.safetensors:  50%|█████     | 2.49G/4.94G [00:10<00:11, 209MB/s][A
-Downloading (…)of-00003.safetensors:  51%|█████     | 2.52G/4.94G [00:10<00:10, 224MB/s][A
-Downloading (…)of-00003.safetensors:  52%|█████▏    | 2.55G/4.94G [00:10<00:10, 236MB/s][A
-Downloading (…)of-00003.safetensors:  52%|█████▏    | 2.58G/4.94G [00:10<00:09, 246MB/s][A
-Downloading (…)of-00003.safetensors:  53%|█████▎    | 2.61G/4.94G [00:10<00:09, 255MB/s][A
-Downloading (…)of-00003.safetensors:  53%|█████▎    | 2.64G/4.94G [00:11<00:08, 258MB/s][A
-Downloading (…)of-00003.safetensors:  54%|█████▍    | 2.67G/4.94G [00:11<00:08, 263MB/s][A
-Downloading (…)of-00003.safetensors:  55%|█████▍    | 2.71G/4.94G [00:11<00:08, 266MB/s][A
-Downloading (…)of-00003.safetensors:  55%|█████▌    | 2.74G/4.94G [00:11<00:08, 265MB/s][A
-Downloading (…)of-00003.safetensors:  56%|█████▌    | 2.77G/4.94G [00:11<00:08, 268MB/s][A
-Downloading (…)of-00003.safetensors:  57%|█████▋    | 2.80G/4.94G [00:11<00:07, 271MB/s][A
-Downloading (…)of-00003.safetensors:  57%|█████▋    | 2.83G/4.94G [00:11<00:07, 272MB/s][A
-Downloading (…)of-00003.safetensors:  58%|█████▊    | 2.86G/4.94G [00:11<00:07, 273MB/s][A
-Downloading (…)of-00003.safetensors:  59%|█████▊    | 2.89G/4.94G [00:12<00:07, 276MB/s][A
-Downloading (…)of-00003.safetensors:  59%|█████▉    | 2.93G/4.94G [00:12<00:07, 260MB/s][A
-Downloading (…)of-00003.safetensors:  60%|█████▉    | 2.96G/4.94G [00:12<00:07, 266MB/s][A
-Downloading (…)of-00003.safetensors:  60%|██████    | 2.99G/4.94G [00:12<00:07, 270MB/s][A
-Downloading (…)of-00003.safetensors:  61%|██████    | 3.02G/4.94G [00:12<00:06, 275MB/s][A
-Downloading (…)of-00003.safetensors:  62%|██████▏   | 3.05G/4.94G [00:12<00:06, 280MB/s][A
-Downloading (…)of-00003.safetensors:  62%|██████▏   | 3.08G/4.94G [00:12<00:06, 279MB/s][A
-Downloading (…)of-00003.safetensors:  63%|██████▎   | 3.11G/4.94G [00:12<00:06, 283MB/s][A
-Downloading (…)of-00003.safetensors:  64%|██████▎   | 3.15G/4.94G [00:12<00:06, 274MB/s][A
-Downloading (…)of-00003.safetensors:  64%|██████▍   | 3.18G/4.94G [00:13<00:06, 267MB/s][A
-Downloading (…)of-00003.safetensors:  65%|██████▍   | 3.21G/4.94G [00:13<00:06, 263MB/s][A
-Downloading (…)of-00003.safetensors:  66%|██████▌   | 3.24G/4.94G [00:13<00:06, 270MB/s][A
-Downloading (…)of-00003.safetensors:  66%|██████▌   | 3.27G/4.94G [00:13<00:06, 265MB/s][A
-Downloading (…)of-00003.safetensors:  67%|██████▋   | 3.30G/4.94G [00:13<00:06, 263MB/s][A
-Downloading (…)of-00003.safetensors:  67%|██████▋   | 3.33G/4.94G [00:13<00:05, 268MB/s][A
-Downloading (…)of-00003.safetensors:  68%|██████▊   | 3.37G/4.94G [00:13<00:05, 267MB/s][A
-Downloading (…)of-00003.safetensors:  69%|██████▊   | 3.40G/4.94G [00:13<00:06, 246MB/s][A
-Downloading (…)of-00003.safetensors:  69%|██████▉   | 3.43G/4.94G [00:14<00:06, 251MB/s][A
-Downloading (…)of-00003.safetensors:  70%|███████   | 3.46G/4.94G [00:14<00:05, 251MB/s][A
-Downloading (…)of-00003.safetensors:  71%|███████   | 3.49G/4.94G [00:14<00:05, 253MB/s][A
-Downloading (…)of-00003.safetensors:  71%|███████▏  | 3.52G/4.94G [00:14<00:05, 261MB/s][A
-Downloading (…)of-00003.safetensors:  72%|███████▏  | 3.55G/4.94G [00:14<00:05, 265MB/s][A
-Downloading (…)of-00003.safetensors:  73%|███████▎  | 3.59G/4.94G [00:14<00:05, 251MB/s][A
-Downloading (…)of-00003.safetensors:  73%|███████▎  | 3.62G/4.94G [00:14<00:05, 256MB/s][A
-Downloading (…)of-00003.safetensors:  74%|███████▍  | 3.65G/4.94G [00:14<00:05, 254MB/s][A
-Downloading (…)of-00003.safetensors:  74%|███████▍  | 3.68G/4.94G [00:15<00:04, 258MB/s][A
-Downloading (…)of-00003.safetensors:  75%|███████▌  | 3.71G/4.94G [00:15<00:04, 265MB/s][A
-Downloading (…)of-00003.safetensors:  76%|███████▌  | 3.74G/4.94G [00:15<00:04, 259MB/s][A
-Downloading (…)of-00003.safetensors:  76%|███████▋  | 3.77G/4.94G [00:15<00:04, 263MB/s][A
-Downloading (…)of-00003.safetensors:  77%|███████▋  | 3.81G/4.94G [00:15<00:04, 270MB/s][A
-Downloading (…)of-00003.safetensors:  78%|███████▊  | 3.84G/4.94G [00:15<00:04, 276MB/s][A
-Downloading (…)of-00003.safetensors:  78%|███████▊  | 3.87G/4.94G [00:15<00:03, 272MB/s][A
-Downloading (…)of-00003.safetensors:  79%|███████▉  | 3.90G/4.94G [00:15<00:03, 268MB/s][A
-Downloading (…)of-00003.safetensors:  80%|███████▉  | 3.93G/4.94G [00:15<00:03, 267MB/s][A
-Downloading (…)of-00003.safetensors:  80%|████████  | 3.96G/4.94G [00:16<00:03, 266MB/s][A
-Downloading (…)of-00003.safetensors:  81%|████████  | 4.00G/4.94G [00:16<00:03, 265MB/s][A
-Downloading (…)of-00003.safetensors:  81%|████████▏ | 4.03G/4.94G [00:16<00:03, 245MB/s][A
-Downloading (…)of-00003.safetensors:  82%|████████▏ | 4.06G/4.94G [00:16<00:03, 250MB/s][A
-Downloading (…)of-00003.safetensors:  83%|████████▎ | 4.09G/4.94G [00:16<00:03, 257MB/s][A
-Downloading (…)of-00003.safetensors:  83%|████████▎ | 4.12G/4.94G [00:16<00:03, 251MB/s][A
-Downloading (…)of-00003.safetensors:  84%|████████▍ | 4.15G/4.94G [00:16<00:03, 253MB/s][A
-Downloading (…)of-00003.safetensors:  85%|████████▍ | 4.18G/4.94G [00:16<00:02, 254MB/s][A
-Downloading (…)of-00003.safetensors:  85%|████████▌ | 4.22G/4.94G [00:17<00:02, 258MB/s][A
-Downloading (…)of-00003.safetensors:  86%|████████▌ | 4.25G/4.94G [00:17<00:02, 261MB/s][A
-Downloading (…)of-00003.safetensors:  87%|████████▋ | 4.28G/4.94G [00:17<00:02, 265MB/s][A
-Downloading (…)of-00003.safetensors:  87%|████████▋ | 4.31G/4.94G [00:17<00:02, 262MB/s][A
-Downloading (…)of-00003.safetensors:  88%|████████▊ | 4.34G/4.94G [00:17<00:02, 263MB/s][A
-Downloading (…)of-00003.safetensors:  88%|████████▊ | 4.37G/4.94G [00:17<00:02, 239MB/s][A
-Downloading (…)of-00003.safetensors:  89%|████████▉ | 4.40G/4.94G [00:17<00:02, 238MB/s][A
-Downloading (…)of-00003.safetensors:  90%|████████▉ | 4.44G/4.94G [00:17<00:02, 240MB/s][A
-Downloading (…)of-00003.safetensors:  90%|█████████ | 4.47G/4.94G [00:18<00:01, 244MB/s][A
-Downloading (…)of-00003.safetensors:  91%|█████████ | 4.50G/4.94G [00:18<00:01, 249MB/s][A
-Downloading (…)of-00003.safetensors:  92%|█████████▏| 4.53G/4.94G [00:18<00:01, 253MB/s][A
-Downloading (…)of-00003.safetensors:  92%|█████████▏| 4.56G/4.94G [00:18<00:01, 254MB/s][A
-Downloading (…)of-00003.safetensors:  93%|█████████▎| 4.59G/4.94G [00:18<00:01, 255MB/s][A
-Downloading (…)of-00003.safetensors:  94%|█████████▎| 4.62G/4.94G [00:18<00:01, 258MB/s][A
-Downloading (…)of-00003.safetensors:  94%|█████████▍| 4.66G/4.94G [00:18<00:01, 262MB/s][A
-Downloading (…)of-00003.safetensors:  95%|█████████▍| 4.69G/4.94G [00:18<00:00, 265MB/s][A
-Downloading (…)of-00003.safetensors:  95%|█████████▌| 4.72G/4.94G [00:19<00:00, 268MB/s][A
-Downloading (…)of-00003.safetensors:  96%|█████████▌| 4.75G/4.94G [00:19<00:00, 270MB/s][A
-Downloading (…)of-00003.safetensors:  97%|█████████▋| 4.78G/4.94G [00:19<00:00, 272MB/s][A
-Downloading (…)of-00003.safetensors:  97%|█████████▋| 4.81G/4.94G [00:19<00:00, 274MB/s][A
-Downloading (…)of-00003.safetensors:  98%|█████████▊| 4.84G/4.94G [00:19<00:00, 277MB/s][A
-Downloading (…)of-00003.safetensors:  99%|█████████▊| 4.88G/4.94G [00:19<00:00, 281MB/s][A
-Downloading (…)of-00003.safetensors:  99%|█████████▉| 4.91G/4.94G [00:19<00:00, 276MB/s][A
-Downloading (…)of-00003.safetensors: 100%|█████████▉| 4.94G/4.94G [00:19<00:00, 270MB/s][ADownloading (…)of-00003.safetensors: 100%|██████████| 4.94G/4.94G [00:19<00:00, 249MB/s]
-Downloading shards:  33%|███▎      | 1/3 [00:20<00:40, 20.21s/it]
-Downloading (…)of-00003.safetensors:   0%|          | 0.00/5.00G [00:00<?, ?B/s][A
-Downloading (…)of-00003.safetensors:   0%|          | 10.5M/5.00G [00:00<02:04, 40.1MB/s][A
-Downloading (…)of-00003.safetensors:   1%|          | 41.9M/5.00G [00:00<00:38, 129MB/s] [A
-Downloading (…)of-00003.safetensors:   1%|▏         | 73.4M/5.00G [00:00<00:27, 179MB/s][A
-Downloading (…)of-00003.safetensors:   2%|▏         | 105M/5.00G [00:00<00:28, 173MB/s] [A
-Downloading (…)of-00003.safetensors:   3%|▎         | 136M/5.00G [00:00<00:25, 191MB/s][A
-Downloading (…)of-00003.safetensors:   3%|▎         | 168M/5.00G [00:00<00:23, 210MB/s][A
-Downloading (…)of-00003.safetensors:   4%|▍         | 199M/5.00G [00:01<00:22, 216MB/s][A
-Downloading (…)of-00003.safetensors:   5%|▍         | 231M/5.00G [00:01<00:49, 97.3MB/s][A
-Downloading (…)of-00003.safetensors:   5%|▌         | 262M/5.00G [00:01<00:39, 119MB/s] [A
-Downloading (…)of-00003.safetensors:   6%|▌         | 294M/5.00G [00:02<00:32, 144MB/s][A
-Downloading (…)of-00003.safetensors:   7%|▋         | 325M/5.00G [00:02<00:27, 167MB/s][A
-Downloading (…)of-00003.safetensors:   7%|▋         | 357M/5.00G [00:02<00:24, 189MB/s][A
-Downloading (…)of-00003.safetensors:   8%|▊         | 388M/5.00G [00:02<00:22, 205MB/s][A
-Downloading (…)of-00003.safetensors:   8%|▊         | 419M/5.00G [00:02<00:20, 222MB/s][A
-Downloading (…)of-00003.safetensors:   9%|▉         | 451M/5.00G [00:02<00:19, 235MB/s][A
-Downloading (…)of-00003.safetensors:  10%|▉         | 482M/5.00G [00:02<00:18, 247MB/s][A
-Downloading (…)of-00003.safetensors:  10%|█         | 514M/5.00G [00:03<00:38, 117MB/s][A
-Downloading (…)of-00003.safetensors:  11%|█         | 535M/5.00G [00:03<00:44, 101MB/s][A
-Downloading (…)of-00003.safetensors:  11%|█         | 556M/5.00G [00:03<00:38, 115MB/s][A
-Downloading (…)of-00003.safetensors:  12%|█▏        | 577M/5.00G [00:03<00:38, 116MB/s][A
-Downloading (…)of-00003.safetensors:  12%|█▏        | 598M/5.00G [00:04<00:34, 126MB/s][A
-Downloading (…)of-00003.safetensors:  13%|█▎        | 629M/5.00G [00:04<00:29, 147MB/s][A
-Downloading (…)of-00003.safetensors:  13%|█▎        | 661M/5.00G [00:04<00:24, 174MB/s][A
-Downloading (…)of-00003.safetensors:  14%|█▍        | 692M/5.00G [00:04<00:21, 196MB/s][A
-Downloading (…)of-00003.safetensors:  14%|█▍        | 724M/5.00G [00:04<00:19, 216MB/s][A
-Downloading (…)of-00003.safetensors:  15%|█▌        | 755M/5.00G [00:04<00:18, 233MB/s][A
-Downloading (…)of-00003.safetensors:  16%|█▌        | 786M/5.00G [00:04<00:17, 246MB/s][A
-Downloading (…)of-00003.safetensors:  16%|█▋        | 818M/5.00G [00:04<00:16, 252MB/s][A
-Downloading (…)of-00003.safetensors:  17%|█▋        | 849M/5.00G [00:05<00:15, 260MB/s][A
-Downloading (…)of-00003.safetensors:  18%|█▊        | 881M/5.00G [00:05<00:39, 104MB/s][A
-Downloading (…)of-00003.safetensors:  18%|█▊        | 902M/5.00G [00:05<00:41, 98.4MB/s][A
-Downloading (…)of-00003.safetensors:  19%|█▊        | 933M/5.00G [00:06<00:32, 124MB/s] [A
-Downloading (…)of-00003.safetensors:  19%|█▉        | 965M/5.00G [00:06<00:26, 150MB/s][A
-Downloading (…)of-00003.safetensors:  20%|█▉        | 996M/5.00G [00:06<00:22, 174MB/s][A
-Downloading (…)of-00003.safetensors:  21%|██        | 1.03G/5.00G [00:06<00:20, 197MB/s][A
-Downloading (…)of-00003.safetensors:  21%|██        | 1.06G/5.00G [00:06<00:18, 210MB/s][A
-Downloading (…)of-00003.safetensors:  22%|██▏       | 1.09G/5.00G [00:06<00:17, 221MB/s][A
-Downloading (…)of-00003.safetensors:  22%|██▏       | 1.12G/5.00G [00:06<00:16, 233MB/s][A
-Downloading (…)of-00003.safetensors:  23%|██▎       | 1.15G/5.00G [00:06<00:15, 246MB/s][A
-Downloading (…)of-00003.safetensors:  24%|██▎       | 1.18G/5.00G [00:07<00:23, 161MB/s][A
-Downloading (…)of-00003.safetensors:  24%|██▍       | 1.22G/5.00G [00:07<00:25, 147MB/s][A
-Downloading (…)of-00003.safetensors:  25%|██▍       | 1.24G/5.00G [00:08<00:41, 90.1MB/s][A
-Downloading (…)of-00003.safetensors:  25%|██▌       | 1.26G/5.00G [00:08<00:43, 85.8MB/s][A
-Downloading (…)of-00003.safetensors:  26%|██▌       | 1.29G/5.00G [00:08<00:33, 111MB/s] [A
-Downloading (…)of-00003.safetensors:  26%|██▋       | 1.32G/5.00G [00:08<00:26, 139MB/s][A
-Downloading (…)of-00003.safetensors:  27%|██▋       | 1.35G/5.00G [00:08<00:22, 163MB/s][A
-Downloading (…)of-00003.safetensors:  28%|██▊       | 1.38G/5.00G [00:08<00:19, 183MB/s][A
-Downloading (…)of-00003.safetensors:  28%|██▊       | 1.42G/5.00G [00:08<00:17, 202MB/s][A
-Downloading (…)of-00003.safetensors:  29%|██▉       | 1.45G/5.00G [00:09<00:16, 219MB/s][A
-Downloading (…)of-00003.safetensors:  30%|██▉       | 1.48G/5.00G [00:09<00:15, 234MB/s][A
-Downloading (…)of-00003.safetensors:  30%|███       | 1.51G/5.00G [00:09<00:16, 212MB/s][A
-Downloading (…)of-00003.safetensors:  31%|███       | 1.54G/5.00G [00:09<00:30, 113MB/s][A
-Downloading (…)of-00003.safetensors:  31%|███       | 1.56G/5.00G [00:10<00:32, 107MB/s][A
-Downloading (…)of-00003.safetensors:  32%|███▏      | 1.58G/5.00G [00:10<00:28, 119MB/s][A
-Downloading (…)of-00003.safetensors:  32%|███▏      | 1.61G/5.00G [00:10<00:23, 145MB/s][A
-Downloading (…)of-00003.safetensors:  33%|███▎      | 1.65G/5.00G [00:10<00:19, 172MB/s][A
-Downloading (…)of-00003.safetensors:  34%|███▎      | 1.68G/5.00G [00:10<00:17, 193MB/s][A
-Downloading (…)of-00003.safetensors:  34%|███▍      | 1.71G/5.00G [00:10<00:15, 210MB/s][A
-Downloading (…)of-00003.safetensors:  35%|███▍      | 1.74G/5.00G [00:10<00:14, 226MB/s][A
-Downloading (…)of-00003.safetensors:  35%|███▌      | 1.77G/5.00G [00:11<00:13, 236MB/s][A
-Downloading (…)of-00003.safetensors:  36%|███▌      | 1.80G/5.00G [00:11<00:13, 243MB/s][A
-Downloading (…)of-00003.safetensors:  37%|███▋      | 1.84G/5.00G [00:11<00:20, 157MB/s][A
-Downloading (…)of-00003.safetensors:  37%|███▋      | 1.86G/5.00G [00:11<00:26, 117MB/s][A
-Downloading (…)of-00003.safetensors:  38%|███▊      | 1.89G/5.00G [00:11<00:21, 142MB/s][A
-Downloading (…)of-00003.safetensors:  38%|███▊      | 1.92G/5.00G [00:12<00:18, 166MB/s][A
-Downloading (…)of-00003.safetensors:  39%|███▉      | 1.95G/5.00G [00:12<00:16, 186MB/s][A
-Downloading (…)of-00003.safetensors:  40%|███▉      | 1.98G/5.00G [00:12<00:14, 203MB/s][A
-Downloading (…)of-00003.safetensors:  40%|████      | 2.01G/5.00G [00:12<00:14, 213MB/s][A
-Downloading (…)of-00003.safetensors:  41%|████      | 2.04G/5.00G [00:12<00:13, 225MB/s][A
-Downloading (…)of-00003.safetensors:  42%|████▏     | 2.08G/5.00G [00:12<00:12, 236MB/s][A
-Downloading (…)of-00003.safetensors:  42%|████▏     | 2.11G/5.00G [00:12<00:11, 243MB/s][A
-Downloading (…)of-00003.safetensors:  43%|████▎     | 2.14G/5.00G [00:13<00:22, 129MB/s][A
-Downloading (…)of-00003.safetensors:  43%|████▎     | 2.17G/5.00G [00:13<00:29, 97.5MB/s][A
-Downloading (…)of-00003.safetensors:  44%|████▍     | 2.19G/5.00G [00:13<00:27, 103MB/s] [A
-Downloading (…)of-00003.safetensors:  44%|████▍     | 2.22G/5.00G [00:14<00:22, 124MB/s][A
-Downloading (…)of-00003.safetensors:  45%|████▌     | 2.25G/5.00G [00:14<00:18, 148MB/s][A
-Downloading (…)of-00003.safetensors:  46%|████▌     | 2.29G/5.00G [00:14<00:16, 167MB/s][A
-Downloading (…)of-00003.safetensors:  46%|████▋     | 2.32G/5.00G [00:14<00:14, 188MB/s][A
-Downloading (…)of-00003.safetensors:  47%|████▋     | 2.35G/5.00G [00:14<00:13, 199MB/s][A
-Downloading (…)of-00003.safetensors:  48%|████▊     | 2.38G/5.00G [00:14<00:12, 212MB/s][A
-Downloading (…)of-00003.safetensors:  48%|████▊     | 2.41G/5.00G [00:14<00:12, 215MB/s][A
-Downloading (…)of-00003.safetensors:  49%|████▉     | 2.44G/5.00G [00:15<00:18, 137MB/s][A
-Downloading (…)of-00003.safetensors:  49%|████▉     | 2.46G/5.00G [00:15<00:19, 128MB/s][A
-Downloading (…)of-00003.safetensors:  50%|████▉     | 2.50G/5.00G [00:15<00:16, 150MB/s][A
-Downloading (…)of-00003.safetensors:  51%|█████     | 2.53G/5.00G [00:15<00:14, 170MB/s][A
-Downloading (…)of-00003.safetensors:  51%|█████     | 2.55G/5.00G [00:16<00:25, 95.7MB/s][A
-Downloading (…)of-00003.safetensors:  52%|█████▏    | 2.58G/5.00G [00:16<00:20, 119MB/s] [A
-Downloading (…)of-00003.safetensors:  52%|█████▏    | 2.61G/5.00G [00:16<00:16, 142MB/s][A
-Downloading (…)of-00003.safetensors:  53%|█████▎    | 2.64G/5.00G [00:16<00:14, 163MB/s][A
-Downloading (…)of-00003.safetensors:  53%|█████▎    | 2.67G/5.00G [00:16<00:12, 183MB/s][A
-Downloading (…)of-00003.safetensors:  54%|█████▍    | 2.71G/5.00G [00:16<00:11, 199MB/s][A
-Downloading (…)of-00003.safetensors:  55%|█████▍    | 2.74G/5.00G [00:17<00:10, 211MB/s][A
-Downloading (…)of-00003.safetensors:  55%|█████▌    | 2.77G/5.00G [00:17<00:10, 222MB/s][A
-Downloading (…)of-00003.safetensors:  56%|█████▌    | 2.80G/5.00G [00:17<00:11, 195MB/s][A
-Downloading (…)of-00003.safetensors:  57%|█████▋    | 2.83G/5.00G [00:18<00:26, 83.4MB/s][A
-Downloading (…)of-00003.safetensors:  57%|█████▋    | 2.86G/5.00G [00:18<00:20, 104MB/s] [A
-Downloading (…)of-00003.safetensors:  58%|█████▊    | 2.88G/5.00G [00:18<00:18, 114MB/s][A
-Downloading (…)of-00003.safetensors:  58%|█████▊    | 2.90G/5.00G [00:18<00:17, 121MB/s][A
-Downloading (…)of-00003.safetensors:  59%|█████▊    | 2.94G/5.00G [00:18<00:14, 145MB/s][A
-Downloading (…)of-00003.safetensors:  59%|█████▉    | 2.97G/5.00G [00:18<00:12, 167MB/s][A
-Downloading (…)of-00003.safetensors:  60%|█████▉    | 3.00G/5.00G [00:19<00:10, 189MB/s][A
-Downloading (…)of-00003.safetensors:  61%|██████    | 3.03G/5.00G [00:19<00:09, 208MB/s][A
-Downloading (…)of-00003.safetensors:  61%|██████    | 3.06G/5.00G [00:19<00:11, 165MB/s][A
-Downloading (…)of-00003.safetensors:  62%|██████▏   | 3.08G/5.00G [00:19<00:17, 112MB/s][A
-Downloading (…)of-00003.safetensors:  62%|██████▏   | 3.10G/5.00G [00:20<00:19, 96.2MB/s][A
-Downloading (…)of-00003.safetensors:  63%|██████▎   | 3.14G/5.00G [00:20<00:15, 124MB/s] [A
-Downloading (…)of-00003.safetensors:  63%|██████▎   | 3.17G/5.00G [00:20<00:12, 152MB/s][A
-Downloading (…)of-00003.safetensors:  64%|██████▍   | 3.20G/5.00G [00:20<00:10, 179MB/s][A
-Downloading (…)of-00003.safetensors:  65%|██████▍   | 3.23G/5.00G [00:20<00:08, 203MB/s][A
-Downloading (…)of-00003.safetensors:  65%|██████▌   | 3.26G/5.00G [00:20<00:07, 220MB/s][A
-Downloading (…)of-00003.safetensors:  66%|██████▌   | 3.29G/5.00G [00:20<00:07, 234MB/s][A
-Downloading (…)of-00003.safetensors:  66%|██████▋   | 3.32G/5.00G [00:20<00:06, 246MB/s][A
-Downloading (…)of-00003.safetensors:  67%|██████▋   | 3.36G/5.00G [00:21<00:06, 258MB/s][A
-Downloading (…)of-00003.safetensors:  68%|██████▊   | 3.39G/5.00G [00:21<00:06, 267MB/s][A
-Downloading (…)of-00003.safetensors:  68%|██████▊   | 3.42G/5.00G [00:22<00:16, 96.4MB/s][A
-Downloading (…)of-00003.safetensors:  69%|██████▉   | 3.44G/5.00G [00:22<00:18, 83.5MB/s][A
-Downloading (…)of-00003.safetensors:  69%|██████▉   | 3.47G/5.00G [00:22<00:14, 107MB/s] [A
-Downloading (…)of-00003.safetensors:  70%|███████   | 3.50G/5.00G [00:22<00:11, 132MB/s][A
-Downloading (…)of-00003.safetensors:  71%|███████   | 3.53G/5.00G [00:22<00:09, 159MB/s][A
-Downloading (…)of-00003.safetensors:  71%|███████▏  | 3.57G/5.00G [00:22<00:07, 184MB/s][A
-Downloading (…)of-00003.safetensors:  72%|███████▏  | 3.60G/5.00G [00:23<00:07, 190MB/s][A
-Downloading (…)of-00003.safetensors:  73%|███████▎  | 3.63G/5.00G [00:23<00:06, 197MB/s][A
-Downloading (…)of-00003.safetensors:  73%|███████▎  | 3.66G/5.00G [00:23<00:06, 213MB/s][A
-Downloading (…)of-00003.safetensors:  74%|███████▍  | 3.69G/5.00G [00:23<00:08, 154MB/s][A
-Downloading (…)of-00003.safetensors:  74%|███████▍  | 3.71G/5.00G [00:24<00:16, 79.7MB/s][A
-Downloading (…)of-00003.safetensors:  75%|███████▍  | 3.73G/5.00G [00:24<00:14, 90.4MB/s][A
-Downloading (…)of-00003.safetensors:  75%|███████▌  | 3.76G/5.00G [00:24<00:11, 110MB/s] [A
-Downloading (…)of-00003.safetensors:  76%|███████▌  | 3.79G/5.00G [00:24<00:11, 105MB/s][A
-Downloading (…)of-00003.safetensors:  76%|███████▌  | 3.81G/5.00G [00:24<00:10, 117MB/s][A
-Downloading (…)of-00003.safetensors:  77%|███████▋  | 3.84G/5.00G [00:25<00:07, 145MB/s][A
-Downloading (…)of-00003.safetensors:  77%|███████▋  | 3.87G/5.00G [00:25<00:06, 171MB/s][A
-Downloading (…)of-00003.safetensors:  78%|███████▊  | 3.90G/5.00G [00:25<00:05, 190MB/s][A
-Downloading (…)of-00003.safetensors:  79%|███████▊  | 3.93G/5.00G [00:25<00:09, 118MB/s][A
-Downloading (…)of-00003.safetensors:  79%|███████▉  | 3.95G/5.00G [00:25<00:08, 118MB/s][A
-Downloading (…)of-00003.safetensors:  79%|███████▉  | 3.97G/5.00G [00:26<00:09, 105MB/s][A
-Downloading (…)of-00003.safetensors:  80%|████████  | 4.01G/5.00G [00:26<00:07, 131MB/s][A
-Downloading (…)of-00003.safetensors:  81%|████████  | 4.04G/5.00G [00:26<00:06, 157MB/s][A
-Downloading (…)of-00003.safetensors:  81%|████████▏ | 4.07G/5.00G [00:26<00:05, 179MB/s][A
-Downloading (…)of-00003.safetensors:  82%|████████▏ | 4.10G/5.00G [00:26<00:04, 199MB/s][A
-Downloading (…)of-00003.safetensors:  83%|████████▎ | 4.13G/5.00G [00:26<00:04, 216MB/s][A
-Downloading (…)of-00003.safetensors:  83%|████████▎ | 4.16G/5.00G [00:26<00:03, 226MB/s][A
-Downloading (…)of-00003.safetensors:  84%|████████▍ | 4.19G/5.00G [00:27<00:03, 236MB/s][A
-Downloading (…)of-00003.safetensors:  85%|████████▍ | 4.23G/5.00G [00:27<00:03, 241MB/s][A
-Downloading (…)of-00003.safetensors:  85%|████████▌ | 4.26G/5.00G [00:28<00:07, 94.8MB/s][A
-Downloading (…)of-00003.safetensors:  86%|████████▌ | 4.28G/5.00G [00:28<00:08, 88.7MB/s][A
-Downloading (…)of-00003.safetensors:  86%|████████▌ | 4.31G/5.00G [00:28<00:06, 112MB/s] [A
-Downloading (…)of-00003.safetensors:  87%|████████▋ | 4.34G/5.00G [00:28<00:04, 134MB/s][A
-Downloading (…)of-00003.safetensors:  87%|████████▋ | 4.37G/5.00G [00:28<00:03, 157MB/s][A
-Downloading (…)of-00003.safetensors:  88%|████████▊ | 4.40G/5.00G [00:28<00:03, 178MB/s][A
-Downloading (…)of-00003.safetensors:  89%|████████▊ | 4.44G/5.00G [00:28<00:02, 194MB/s][A
-Downloading (…)of-00003.safetensors:  89%|████████▉ | 4.47G/5.00G [00:29<00:02, 205MB/s][A
-Downloading (…)of-00003.safetensors:  90%|████████▉ | 4.50G/5.00G [00:29<00:02, 216MB/s][A
-Downloading (…)of-00003.safetensors:  91%|█████████ | 4.53G/5.00G [00:29<00:03, 146MB/s][A
-Downloading (…)of-00003.safetensors:  91%|█████████ | 4.55G/5.00G [00:29<00:03, 115MB/s][A
-Downloading (…)of-00003.safetensors:  92%|█████████▏| 4.58G/5.00G [00:30<00:02, 141MB/s][A
-Downloading (…)of-00003.safetensors:  92%|█████████▏| 4.61G/5.00G [00:30<00:02, 165MB/s][A
-Downloading (…)of-00003.safetensors:  93%|█████████▎| 4.65G/5.00G [00:30<00:01, 185MB/s][A
-Downloading (…)of-00003.safetensors:  94%|█████████▎| 4.68G/5.00G [00:30<00:01, 203MB/s][A
-Downloading (…)of-00003.safetensors:  94%|█████████▍| 4.71G/5.00G [00:30<00:01, 218MB/s][A
-Downloading (…)of-00003.safetensors:  95%|█████████▍| 4.74G/5.00G [00:30<00:01, 230MB/s][A
-Downloading (…)of-00003.safetensors:  95%|█████████▌| 4.77G/5.00G [00:30<00:00, 236MB/s][A
-Downloading (…)of-00003.safetensors:  96%|█████████▌| 4.80G/5.00G [00:30<00:00, 239MB/s][A
-Downloading (…)of-00003.safetensors:  97%|█████████▋| 4.83G/5.00G [00:31<00:01, 152MB/s][A
-Downloading (…)of-00003.safetensors:  97%|█████████▋| 4.85G/5.00G [00:31<00:01, 115MB/s][A
-Downloading (…)of-00003.safetensors:  98%|█████████▊| 4.89G/5.00G [00:31<00:00, 137MB/s][A
-Downloading (…)of-00003.safetensors:  98%|█████████▊| 4.92G/5.00G [00:31<00:00, 158MB/s][A
-Downloading (…)of-00003.safetensors:  99%|█████████▉| 4.95G/5.00G [00:32<00:00, 176MB/s][A
-Downloading (…)of-00003.safetensors: 100%|█████████▉| 4.98G/5.00G [00:32<00:00, 190MB/s][ADownloading (…)of-00003.safetensors: 100%|██████████| 5.00G/5.00G [00:32<00:00, 155MB/s]
-Downloading shards:  67%|██████▋   | 2/3 [00:52<00:27, 27.43s/it]
-Downloading (…)of-00003.safetensors:   0%|          | 0.00/4.54G [00:00<?, ?B/s][A
-Downloading (…)of-00003.safetensors:   0%|          | 21.0M/4.54G [00:00<00:37, 122MB/s][A
-Downloading (…)of-00003.safetensors:   1%|          | 41.9M/4.54G [00:00<00:31, 142MB/s][A
-Downloading (…)of-00003.safetensors:   1%|▏         | 62.9M/4.54G [00:00<00:28, 157MB/s][A
-Downloading (…)of-00003.safetensors:   2%|▏         | 83.9M/4.54G [00:00<00:26, 170MB/s][A
-Downloading (…)of-00003.safetensors:   2%|▏         | 105M/4.54G [00:00<00:24, 181MB/s] [A
-Downloading (…)of-00003.safetensors:   3%|▎         | 136M/4.54G [00:00<00:21, 200MB/s][A
-Downloading (…)of-00003.safetensors:   4%|▎         | 168M/4.54G [00:00<00:20, 214MB/s][A
-Downloading (…)of-00003.safetensors:   4%|▍         | 199M/4.54G [00:01<00:20, 216MB/s][A
-Downloading (…)of-00003.safetensors:   5%|▌         | 231M/4.54G [00:01<00:20, 215MB/s][A
-Downloading (…)of-00003.safetensors:   6%|▌         | 262M/4.54G [00:01<00:20, 205MB/s][A
-Downloading (…)of-00003.safetensors:   6%|▌         | 283M/4.54G [00:01<00:20, 203MB/s][A
-Downloading (…)of-00003.safetensors:   7%|▋         | 304M/4.54G [00:01<00:20, 203MB/s][A
-Downloading (…)of-00003.safetensors:   7%|▋         | 336M/4.54G [00:01<00:19, 216MB/s][A
-Downloading (…)of-00003.safetensors:   8%|▊         | 367M/4.54G [00:01<00:18, 225MB/s][A
-Downloading (…)of-00003.safetensors:   9%|▉         | 398M/4.54G [00:01<00:17, 232MB/s][A
-Downloading (…)of-00003.safetensors:   9%|▉         | 430M/4.54G [00:02<00:17, 237MB/s][A
-Downloading (…)of-00003.safetensors:  10%|█         | 461M/4.54G [00:02<00:20, 200MB/s][A
-Downloading (…)of-00003.safetensors:  11%|█         | 493M/4.54G [00:03<00:44, 91.5MB/s][A
-Downloading (…)of-00003.safetensors:  11%|█▏        | 514M/4.54G [00:03<00:41, 97.9MB/s][A
-Downloading (…)of-00003.safetensors:  12%|█▏        | 535M/4.54G [00:03<00:38, 104MB/s] [A
-Downloading (…)of-00003.safetensors:  12%|█▏        | 556M/4.54G [00:03<00:35, 112MB/s][A
-Downloading (…)of-00003.safetensors:  13%|█▎        | 587M/4.54G [00:03<00:28, 138MB/s][A
-Downloading (…)of-00003.safetensors:  14%|█▎        | 619M/4.54G [00:03<00:23, 164MB/s][A
-Downloading (…)of-00003.safetensors:  14%|█▍        | 650M/4.54G [00:03<00:21, 184MB/s][A
-Downloading (…)of-00003.safetensors:  15%|█▌        | 682M/4.54G [00:04<00:19, 201MB/s][A
-Downloading (…)of-00003.safetensors:  16%|█▌        | 713M/4.54G [00:04<00:48, 79.6MB/s][A
-Downloading (…)of-00003.safetensors:  16%|█▌        | 734M/4.54G [00:05<00:42, 88.6MB/s][A
-Downloading (…)of-00003.safetensors:  17%|█▋        | 765M/4.54G [00:05<00:33, 113MB/s] [A
-Downloading (…)of-00003.safetensors:  18%|█▊        | 797M/4.54G [00:05<00:27, 136MB/s][A
-Downloading (…)of-00003.safetensors:  18%|█▊        | 828M/4.54G [00:05<00:23, 159MB/s][A
-Downloading (…)of-00003.safetensors:  19%|█▉        | 860M/4.54G [00:05<00:21, 175MB/s][A
-Downloading (…)of-00003.safetensors:  20%|█▉        | 891M/4.54G [00:05<00:18, 192MB/s][A
-Downloading (…)of-00003.safetensors:  20%|██        | 923M/4.54G [00:05<00:17, 208MB/s][A
-Downloading (…)of-00003.safetensors:  21%|██        | 954M/4.54G [00:05<00:16, 216MB/s][A
-Downloading (…)of-00003.safetensors:  22%|██▏       | 986M/4.54G [00:06<00:20, 175MB/s][A
-Downloading (…)of-00003.safetensors:  22%|██▏       | 1.01G/4.54G [00:06<00:34, 101MB/s][A
-Downloading (…)of-00003.safetensors:  23%|██▎       | 1.03G/4.54G [00:07<00:45, 77.4MB/s][A
-Downloading (…)of-00003.safetensors:  23%|██▎       | 1.06G/4.54G [00:07<00:34, 99.9MB/s][A
-Downloading (…)of-00003.safetensors:  24%|██▍       | 1.09G/4.54G [00:07<00:27, 124MB/s] [A
-Downloading (…)of-00003.safetensors:  25%|██▍       | 1.12G/4.54G [00:07<00:23, 148MB/s][A
-Downloading (…)of-00003.safetensors:  25%|██▌       | 1.15G/4.54G [00:07<00:20, 167MB/s][A
-Downloading (…)of-00003.safetensors:  26%|██▌       | 1.18G/4.54G [00:07<00:18, 186MB/s][A
-Downloading (…)of-00003.safetensors:  27%|██▋       | 1.22G/4.54G [00:08<00:16, 199MB/s][A
-Downloading (…)of-00003.safetensors:  27%|██▋       | 1.25G/4.54G [00:08<00:15, 209MB/s][A
-Downloading (…)of-00003.safetensors:  28%|██▊       | 1.28G/4.54G [00:08<00:17, 190MB/s][A
-Downloading (…)of-00003.safetensors:  29%|██▊       | 1.30G/4.54G [00:08<00:33, 97.3MB/s][A
-Downloading (…)of-00003.safetensors:  29%|██▉       | 1.33G/4.54G [00:09<00:38, 84.1MB/s][A
-Downloading (…)of-00003.safetensors:  30%|██▉       | 1.35G/4.54G [00:09<00:35, 90.3MB/s][A
-Downloading (…)of-00003.safetensors:  30%|███       | 1.38G/4.54G [00:09<00:27, 115MB/s] [A
-Downloading (…)of-00003.safetensors:  31%|███       | 1.42G/4.54G [00:09<00:22, 139MB/s][A
-Downloading (…)of-00003.safetensors:  32%|███▏      | 1.45G/4.54G [00:09<00:19, 159MB/s][A
-Downloading (…)of-00003.safetensors:  32%|███▏      | 1.47G/4.54G [00:10<00:18, 168MB/s][A
-Downloading (…)of-00003.safetensors:  33%|███▎      | 1.49G/4.54G [00:10<00:20, 146MB/s][A
-Downloading (…)of-00003.safetensors:  33%|███▎      | 1.52G/4.54G [00:10<00:18, 163MB/s][A
-Downloading (…)of-00003.safetensors:  34%|███▍      | 1.54G/4.54G [00:10<00:17, 170MB/s][A
-Downloading (…)of-00003.safetensors:  34%|███▍      | 1.56G/4.54G [00:10<00:27, 109MB/s][A
-Downloading (…)of-00003.safetensors:  35%|███▍      | 1.58G/4.54G [00:11<00:32, 89.7MB/s][A
-Downloading (…)of-00003.safetensors:  35%|███▌      | 1.60G/4.54G [00:11<00:27, 106MB/s] [A
-Downloading (…)of-00003.safetensors:  36%|███▌      | 1.63G/4.54G [00:11<00:23, 122MB/s][A
-Downloading (…)of-00003.safetensors:  36%|███▋      | 1.65G/4.54G [00:11<00:28, 103MB/s][A
-Downloading (…)of-00003.safetensors:  37%|███▋      | 1.67G/4.54G [00:11<00:25, 114MB/s][A
-Downloading (…)of-00003.safetensors:  37%|███▋      | 1.69G/4.54G [00:12<00:21, 131MB/s][A
-Downloading (…)of-00003.safetensors:  38%|███▊      | 1.71G/4.54G [00:12<00:19, 146MB/s][A
-Downloading (…)of-00003.safetensors:  38%|███▊      | 1.73G/4.54G [00:12<00:17, 158MB/s][A
-Downloading (…)of-00003.safetensors:  39%|███▊      | 1.75G/4.54G [00:12<00:16, 167MB/s][A
-Downloading (…)of-00003.safetensors:  39%|███▉      | 1.77G/4.54G [00:12<00:15, 174MB/s][A
-Downloading (…)of-00003.safetensors:  39%|███▉      | 1.79G/4.54G [00:12<00:15, 180MB/s][A
-Downloading (…)of-00003.safetensors:  40%|████      | 1.82G/4.54G [00:12<00:13, 198MB/s][A
-Downloading (…)of-00003.safetensors:  41%|████      | 1.85G/4.54G [00:12<00:15, 172MB/s][A
-Downloading (…)of-00003.safetensors:  41%|████      | 1.87G/4.54G [00:13<00:29, 90.3MB/s][A
-Downloading (…)of-00003.safetensors:  42%|████▏     | 1.89G/4.54G [00:13<00:34, 76.6MB/s][A
-Downloading (…)of-00003.safetensors:  42%|████▏     | 1.92G/4.54G [00:13<00:25, 102MB/s] [A
-Downloading (…)of-00003.safetensors:  43%|████▎     | 1.95G/4.54G [00:14<00:20, 127MB/s][A
-Downloading (…)of-00003.safetensors:  44%|████▎     | 1.98G/4.54G [00:14<00:16, 152MB/s][A
-Downloading (…)of-00003.safetensors:  44%|████▍     | 2.01G/4.54G [00:14<00:14, 175MB/s][A
-Downloading (…)of-00003.safetensors:  45%|████▌     | 2.04G/4.54G [00:14<00:13, 192MB/s][A
-Downloading (…)of-00003.safetensors:  46%|████▌     | 2.08G/4.54G [00:14<00:12, 205MB/s][A
-Downloading (…)of-00003.safetensors:  46%|████▋     | 2.11G/4.54G [00:14<00:11, 215MB/s][A
-Downloading (…)of-00003.safetensors:  47%|████▋     | 2.14G/4.54G [00:14<00:11, 208MB/s][A
-Downloading (…)of-00003.safetensors:  48%|████▊     | 2.17G/4.54G [00:14<00:11, 215MB/s][A
-Downloading (…)of-00003.safetensors:  48%|████▊     | 2.20G/4.54G [00:15<00:24, 96.3MB/s][A
-Downloading (…)of-00003.safetensors:  49%|████▉     | 2.22G/4.54G [00:15<00:21, 108MB/s] [A
-Downloading (…)of-00003.safetensors:  49%|████▉     | 2.24G/4.54G [00:15<00:18, 122MB/s][A
-Downloading (…)of-00003.safetensors:  50%|█████     | 2.28G/4.54G [00:16<00:15, 142MB/s][A
-Downloading (…)of-00003.safetensors:  51%|█████     | 2.31G/4.54G [00:16<00:14, 159MB/s][A
-Downloading (…)of-00003.safetensors:  51%|█████▏    | 2.33G/4.54G [00:16<00:13, 169MB/s][A
-Downloading (…)of-00003.safetensors:  52%|█████▏    | 2.35G/4.54G [00:16<00:12, 175MB/s][A
-Downloading (…)of-00003.safetensors:  52%|█████▏    | 2.38G/4.54G [00:16<00:11, 187MB/s][A
-Downloading (…)of-00003.safetensors:  53%|█████▎    | 2.41G/4.54G [00:16<00:10, 195MB/s][A
-Downloading (…)of-00003.safetensors:  54%|█████▎    | 2.43G/4.54G [00:16<00:10, 198MB/s][A
-Downloading (…)of-00003.safetensors:  54%|█████▍    | 2.45G/4.54G [00:17<00:16, 128MB/s][A
-Downloading (…)of-00003.safetensors:  55%|█████▍    | 2.49G/4.54G [00:17<00:13, 155MB/s][A
-Downloading (…)of-00003.safetensors:  55%|█████▌    | 2.52G/4.54G [00:17<00:11, 178MB/s][A
-Downloading (…)of-00003.safetensors:  56%|█████▌    | 2.55G/4.54G [00:17<00:10, 197MB/s][A
-Downloading (…)of-00003.safetensors:  57%|█████▋    | 2.58G/4.54G [00:17<00:09, 201MB/s][A
-Downloading (…)of-00003.safetensors:  58%|█████▊    | 2.61G/4.54G [00:18<00:15, 124MB/s][A
-Downloading (…)of-00003.safetensors:  58%|█████▊    | 2.64G/4.54G [00:18<00:12, 147MB/s][A
-Downloading (…)of-00003.safetensors:  59%|█████▉    | 2.67G/4.54G [00:18<00:11, 168MB/s][A
-Downloading (…)of-00003.safetensors:  60%|█████▉    | 2.71G/4.54G [00:18<00:09, 188MB/s][A
-Downloading (…)of-00003.safetensors:  60%|██████    | 2.74G/4.54G [00:18<00:08, 203MB/s][A
-Downloading (…)of-00003.safetensors:  61%|██████    | 2.77G/4.54G [00:18<00:08, 214MB/s][A
-Downloading (…)of-00003.safetensors:  62%|██████▏   | 2.80G/4.54G [00:18<00:07, 221MB/s][A
-Downloading (…)of-00003.safetensors:  62%|██████▏   | 2.83G/4.54G [00:19<00:07, 227MB/s][A
-Downloading (…)of-00003.safetensors:  63%|██████▎   | 2.86G/4.54G [00:19<00:07, 233MB/s][A
-Downloading (…)of-00003.safetensors:  64%|██████▎   | 2.89G/4.54G [00:19<00:17, 92.9MB/s][A
-Downloading (…)of-00003.safetensors:  64%|██████▍   | 2.93G/4.54G [00:20<00:14, 114MB/s] [A
-Downloading (…)of-00003.safetensors:  65%|██████▌   | 2.96G/4.54G [00:20<00:11, 136MB/s][A
-Downloading (…)of-00003.safetensors:  66%|██████▌   | 2.99G/4.54G [00:20<00:11, 134MB/s][A
-Downloading (…)of-00003.safetensors:  67%|██████▋   | 3.02G/4.54G [00:20<00:09, 155MB/s][A
-Downloading (…)of-00003.safetensors:  67%|██████▋   | 3.05G/4.54G [00:20<00:08, 174MB/s][A
-Downloading (…)of-00003.safetensors:  68%|██████▊   | 3.08G/4.54G [00:20<00:07, 193MB/s][A
-Downloading (…)of-00003.safetensors:  69%|██████▊   | 3.11G/4.54G [00:20<00:06, 208MB/s][A
-Downloading (…)of-00003.safetensors:  69%|██████▉   | 3.15G/4.54G [00:21<00:06, 219MB/s][A
-Downloading (…)of-00003.safetensors:  70%|██████▉   | 3.18G/4.54G [00:21<00:06, 227MB/s][A
-Downloading (…)of-00003.safetensors:  71%|███████   | 3.21G/4.54G [00:21<00:05, 234MB/s][A
-Downloading (…)of-00003.safetensors:  71%|███████▏  | 3.24G/4.54G [00:21<00:05, 239MB/s][A
-Downloading (…)of-00003.safetensors:  72%|███████▏  | 3.27G/4.54G [00:21<00:05, 243MB/s][A
-Downloading (…)of-00003.safetensors:  73%|███████▎  | 3.30G/4.54G [00:21<00:04, 248MB/s][A
-Downloading (…)of-00003.safetensors:  73%|███████▎  | 3.33G/4.54G [00:21<00:04, 248MB/s][A
-Downloading (…)of-00003.safetensors:  74%|███████▍  | 3.37G/4.54G [00:21<00:04, 247MB/s][A
-Downloading (…)of-00003.safetensors:  75%|███████▍  | 3.40G/4.54G [00:22<00:04, 249MB/s][A
-Downloading (…)of-00003.safetensors:  76%|███████▌  | 3.43G/4.54G [00:22<00:04, 249MB/s][A
-Downloading (…)of-00003.safetensors:  76%|███████▌  | 3.46G/4.54G [00:22<00:04, 237MB/s][A
-Downloading (…)of-00003.safetensors:  77%|███████▋  | 3.49G/4.54G [00:22<00:04, 236MB/s][A
-Downloading (…)of-00003.safetensors:  78%|███████▊  | 3.52G/4.54G [00:22<00:04, 238MB/s][A
-Downloading (…)of-00003.safetensors:  78%|███████▊  | 3.55G/4.54G [00:22<00:04, 239MB/s][A
-Downloading (…)of-00003.safetensors:  79%|███████▉  | 3.59G/4.54G [00:22<00:04, 226MB/s][A
-Downloading (…)of-00003.safetensors:  80%|███████▉  | 3.62G/4.54G [00:23<00:03, 234MB/s][A
-Downloading (…)of-00003.safetensors:  80%|████████  | 3.65G/4.54G [00:23<00:03, 234MB/s][A
-Downloading (…)of-00003.safetensors:  81%|████████  | 3.68G/4.54G [00:23<00:03, 239MB/s][A
-Downloading (…)of-00003.safetensors:  82%|████████▏ | 3.71G/4.54G [00:23<00:03, 237MB/s][A
-Downloading (…)of-00003.safetensors:  82%|████████▏ | 3.74G/4.54G [00:24<00:08, 92.5MB/s][A
-Downloading (…)of-00003.safetensors:  83%|████████▎ | 3.76G/4.54G [00:24<00:09, 84.2MB/s][A
-Downloading (…)of-00003.safetensors:  84%|████████▎ | 3.80G/4.54G [00:24<00:06, 107MB/s] [A
-Downloading (…)of-00003.safetensors:  84%|████████▍ | 3.83G/4.54G [00:24<00:05, 130MB/s][A
-Downloading (…)of-00003.safetensors:  85%|████████▍ | 3.86G/4.54G [00:24<00:04, 152MB/s][A
-Downloading (…)of-00003.safetensors:  86%|████████▌ | 3.89G/4.54G [00:25<00:03, 172MB/s][A
-Downloading (…)of-00003.safetensors:  86%|████████▋ | 3.92G/4.54G [00:25<00:03, 190MB/s][A
-Downloading (…)of-00003.safetensors:  87%|████████▋ | 3.95G/4.54G [00:25<00:02, 205MB/s][A
-Downloading (…)of-00003.safetensors:  88%|████████▊ | 3.98G/4.54G [00:25<00:02, 211MB/s][A
-Downloading (…)of-00003.safetensors:  88%|████████▊ | 4.02G/4.54G [00:25<00:03, 158MB/s][A
-Downloading (…)of-00003.safetensors:  89%|████████▉ | 4.04G/4.54G [00:25<00:03, 154MB/s][A
-Downloading (…)of-00003.safetensors:  90%|████████▉ | 4.07G/4.54G [00:26<00:02, 174MB/s][A
-Downloading (…)of-00003.safetensors:  90%|█████████ | 4.10G/4.54G [00:26<00:02, 192MB/s][A
-Downloading (…)of-00003.safetensors:  91%|█████████ | 4.13G/4.54G [00:26<00:02, 150MB/s][A
-Downloading (…)of-00003.safetensors:  91%|█████████▏| 4.15G/4.54G [00:26<00:02, 151MB/s][A
-Downloading (…)of-00003.safetensors:  92%|█████████▏| 4.17G/4.54G [00:27<00:04, 84.3MB/s][A
-Downloading (…)of-00003.safetensors:  93%|█████████▎| 4.20G/4.54G [00:27<00:03, 108MB/s] [A
-Downloading (…)of-00003.safetensors:  93%|█████████▎| 4.24G/4.54G [00:27<00:02, 132MB/s][A
-Downloading (…)of-00003.safetensors:  94%|█████████▍| 4.27G/4.54G [00:27<00:01, 155MB/s][A
-Downloading (…)of-00003.safetensors:  95%|█████████▍| 4.30G/4.54G [00:27<00:01, 170MB/s][A
-Downloading (…)of-00003.safetensors:  95%|█████████▌| 4.33G/4.54G [00:27<00:01, 189MB/s][A
-Downloading (…)of-00003.safetensors:  96%|█████████▌| 4.36G/4.54G [00:28<00:00, 204MB/s][A
-Downloading (…)of-00003.safetensors:  97%|█████████▋| 4.39G/4.54G [00:28<00:00, 218MB/s][A
-Downloading (…)of-00003.safetensors:  97%|█████████▋| 4.42G/4.54G [00:28<00:00, 225MB/s][A
-Downloading (…)of-00003.safetensors:  98%|█████████▊| 4.46G/4.54G [00:28<00:00, 189MB/s][A
-Downloading (…)of-00003.safetensors:  99%|█████████▉| 4.49G/4.54G [00:28<00:00, 203MB/s][A
-Downloading (…)of-00003.safetensors: 100%|█████████▉| 4.52G/4.54G [00:28<00:00, 214MB/s][ADownloading (…)of-00003.safetensors: 100%|██████████| 4.54G/4.54G [00:28<00:00, 157MB/s]
-Downloading shards: 100%|██████████| 3/3 [01:22<00:00, 28.35s/it]Downloading shards: 100%|██████████| 3/3 [01:22<00:00, 27.38s/it]
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.03it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.05it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.11it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.09it/s]
-Downloading generation_config.json:   0%|          | 0.00/111 [00:00<?, ?B/s]Downloading generation_config.json: 100%|██████████| 111/111 [00:00<00:00, 101kB/s]
-Downloading tokenizer_config.json:   0%|          | 0.00/1.46k [00:00<?, ?B/s]Downloading tokenizer_config.json: 100%|██████████| 1.46k/1.46k [00:00<00:00, 1.36MB/s]
-Downloading tokenizer.model:   0%|          | 0.00/493k [00:00<?, ?B/s]Downloading tokenizer.model: 100%|██████████| 493k/493k [00:00<00:00, 219MB/s]
-Downloading (…)cial_tokens_map.json:   0%|          | 0.00/72.0 [00:00<?, ?B/s]Downloading (…)cial_tokens_map.json: 100%|██████████| 72.0/72.0 [00:00<00:00, 103kB/s]
-Downloading tokenizer.json:   0%|          | 0.00/1.80M [00:00<?, ?B/s]Downloading tokenizer.json: 100%|██████████| 1.80M/1.80M [00:00<00:00, 4.89MB/s]Downloading tokenizer.json: 100%|██████████| 1.80M/1.80M [00:00<00:00, 4.87MB/s]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.25s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.22s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.15s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.17s/it]
 finish loading model..
   0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]
 Generating!
 Traceback (most recent call last):
-  File "inference.py", line 264, in <module>
+  File "inference.py", line 266, in <module>
     fire.Fire(main)
   File "/usr/local/lib/python3.8/dist-packages/fire/core.py", line 141, in Fire
     component_trace = _Fire(component, args, parsed_flag_args, context, name)
@@ -510,7 +12,7 @@ Traceback (most recent call last):
     component, remaining_args = _CallAndUpdateTrace(
   File "/usr/local/lib/python3.8/dist-packages/fire/core.py", line 691, in _CallAndUpdateTrace
     component = fn(*varargs, **kwargs)
-  File "inference.py", line 250, in main
+  File "inference.py", line 252, in main
     output = generator(instruction = prompt,
   File "inference.py", line 98, in generator
     generation_output = model.generate(
