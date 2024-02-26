@@ -222,6 +222,8 @@ def main(
             results_filename = 'results_txt/investLM/results_demo.txt'
         elif "Llama-2-7b-chat" in base_model:
             results_filename = 'results_txt/llama7b_chat/results_demo.txt'
+        elif "Mistral-7B" in base_model:
+            results_filename = 'results_txt/mistral_7b/results_demo.txt'
         elif "Mistral-7B-Instruct" in base_model:
             results_filename = 'results_txt/mistral_7b_instruct/results_demo.txt'
         else:
