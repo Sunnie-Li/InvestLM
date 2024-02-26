@@ -63,6 +63,7 @@ def main(
             print("Finished loading PEFT model")
         tokenizer =  AutoTokenizer.from_pretrained(base_model,use_fast=False,cache_dir=cache_dir)
         tokenizer.pad_token=tokenizer.eos_token
+        tokenizer.pad_token_id = tokenizer.eos_token_id
         model.eval()
 
         is_chat = "chat" in base_model
@@ -87,6 +88,7 @@ def main(
                     top_k=top_k,
                     do_sample=True,
                     num_beams=num_beams,
+                    pad_token_id=tokenizer.eos_token_id,
                     **kwargs,
                 )
 
@@ -218,8 +220,8 @@ def main(
             results_filename = 'results_txt/gemma7b/results_demo.txt'
         elif "investLM" in base_model:
             results_filename = 'results_txt/investLM/results_demo.txt'
-        elif "Llama-2-7b-chat" in base_model:
-            results_filename = 'results_txt/llama7b_chat/results_demo.txt'
+       # elif "Llama-2-7b-chat" in base_model:
+       #     results_filename = 'results_txt/llama7b_chat/results_demo.txt'
         else:
             results_filename = 'results_txt/results_demo.txt'
         
@@ -232,7 +234,7 @@ def main(
                 pass  # Creating an empty file
 
 
-        prompt_q = '''Based on the report summary, ss management executing well on their stated strategy? Are they meeting their own goals and projections?''' # question
+        prompt_q = '''Based on the report summary, is management executing well on their stated strategy? Are they meeting their own goals and projections?''' # question
 
         # reports = read_by_paragraphs(reports_filename)
 
