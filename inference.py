@@ -65,7 +65,7 @@ def main(
         tokenizer.pad_token=tokenizer.eos_token
         model.eval()
 
-        is_chat = "chat" in base_model
+        is_chat = "chat" in base_model or "Mistral-7B-Instruct" in base_model
 
         def generator(
                 instruction,
