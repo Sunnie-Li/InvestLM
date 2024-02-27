@@ -212,8 +212,7 @@ def main(
             
         # I used cp /Users/sunnielee/Desktop/OneDriveUoE/PROJECT/risk_factors/0000001800/2023-02-17.txt /Users/sunnielee/Library/CloudStorage/OneDrive-UniversityofEdinburgh/InvestLM/reports_abbott.txt 
                 # to copy the file from the extracted risk factors as the txt to be read. 0000001800 stands for Abbott.   
-        reports_filename = 'reports/reports_demo.txt'  # The file with reports selected from 10K reports of companies.
-        
+      
         if "falcon_7b_instruct" in base_model:
             results_filename = 'results_txt/falcon_7b_instruct/results_demo.txt'
         elif "gemma" in base_model:
@@ -240,11 +239,27 @@ def main(
 
         prompt_q = '''Based on the report summary, is management executing well on their stated strategy? Are they meeting their own goals and projections?''' # question
 
-        # reports = read_by_paragraphs(reports_filename)
+        def read_files_as_strings(filenames):
+            """
+             Reads each file in the list of filenames and returns a list of their contents as strings.
+            """
+            file_contents = []
+            for filename in filenames:
+                with open(filename, 'r', encoding='utf-8') as file:
+                    text = file.read()  # Read the entire file content into a single string
+                    file_contents.append(text)
+            return file_contents
 
-        reports = read_entire_file(reports_filename)
-        if isinstance(reports, str):
-            reports = [reports]
+
+        reports_filenames = ['reports/2023_home_depot.html', 'reports/2023_Pepsi.html', 'reports/2023_PFIZER.html', 'reports/2023_ Abbott.html']
+        reports = read_files_as_strings(reports_filenames)
+        # reports_filename = 'reports/2023_home_depot.html'  # The file with reports selected from 10K reports of companies.
+        # reports = read_entire_file(reports_filename)
+        # if isinstance(reports, str):
+        #    reports = [reports]
+        
+        
+        
         results = ""
 
         for paragraph in tqdm(reports):
