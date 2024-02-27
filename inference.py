@@ -251,7 +251,9 @@ def main(
             return file_contents
 
 
-        reports_filenames = ['reports/2023_home_depot.html', 'reports/2023_Pepsi.html', 'reports/2023_PFIZER.html', 'reports/2023_ Abbott.html']
+        reports_filenames = ['reports/2023_home_depot.html']
+        # reports_filenames = ['reports/2023_home_depot.html', 'reports/2023_Pepsi.html', 'reports/2023_PFIZER.html', 'reports/2023_ Abbott.html']
+        
         reports = read_files_as_strings(reports_filenames)
         # reports_filename = 'reports/2023_home_depot.html'  # The file with reports selected from 10K reports of companies.
         # reports = read_entire_file(reports_filename)
