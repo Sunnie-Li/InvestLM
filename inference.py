@@ -218,7 +218,7 @@ def main(
         elif "gemma" in base_model:
             results_filename = 'results_txt/gemma7b/results_demo.txt'
         elif "investLM" in base_model:
-            results_filename = 'results_txt/investLM/results_demo.txt'
+            results_filename = 'results_txt/investLM/results_news.txt'
         elif "Llama-2-7b-chat" in base_model:
             results_filename = 'results_txt/llama7b_chat/results_demo.txt'
         elif "Mistral-7B-v0.1" in base_model:
@@ -237,7 +237,11 @@ def main(
                 pass  # Creating an empty file
 
 
-        prompt_q = '''Based on the report summary, is management executing well on their stated strategy? Are they meeting their own goals and projections?''' # question
+        # prompt_q = '''Based on the report summary, is management executing well on their stated strategy? Are they meeting their own goals and projections?''' # question
+        prompt_q = "You are a financial expert with stock recommendation experience. "\
+                 + "Are the following news headlines good or bad for the s&p500 market? "\
+                 + "Answer “YES” if good news, “NO” if bad news, or “UNKNOWN” if uncertain. "\
+                 + "Expalin how you derive the answer."
 
         def read_files_as_strings(filenames):
             """
@@ -251,20 +255,25 @@ def main(
             return file_contents
 
 
-        reports_filenames = ['reports/Abbott_2006_02_22.html']
+        # reports_filenames = ['reports/Abbott_2006_02_22.html']
         # reports_filenames = ['reports/2023_home_depot.html', 'reports/2023_Pepsi.html', 'reports/2023_PFIZER.html', 'reports/2023_ Abbott.html']
         
-        reports = read_files_as_strings(reports_filenames)
+        # reports = read_files_as_strings(reports_filenames)
         # reports_filename = 'reports/2023_home_depot.html'  # The file with reports selected from 10K reports of companies.
         # reports = read_entire_file(reports_filename)
-        # if isinstance(reports, str):
+        #if isinstance(reports, str):
         #    reports = [reports]
-        
+        newlines = [
+            'Google shares increase 4 pct after Colaninno reports by winning Microsoft on LLM techniques',
+            'Google shares drop down 4 pct after Colaninno reports by losing to Microsoft on LLM techniques',
+            'Google lose to Microsoft on LLM techniques',
+            'Microsoft lose to Google on LLM techniques'
+        ]
         
         
         results = ""
 
-        for paragraph in tqdm(reports):
+        for paragraph in tqdm(newlines):
             
             prompt = paragraph + "\n\n" + prompt_q
 
