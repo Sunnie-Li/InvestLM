@@ -226,7 +226,7 @@ def main(
         elif "Mistral-7B-Instruct" in base_model:
             results_filename = 'results_txt/mistral_7b_instruct/results_demo.txt'
         else:
-            results_filename = 'results_txt/results_demo.txt'
+            results_filename = 'results_txt/results_news.txt'
         
         # The file with inferred results.
 
@@ -241,7 +241,7 @@ def main(
         prompt_q = "You are a financial expert with stock recommendation experience. "\
                  + "Are the following news headlines good or bad for the s&p500 market? "\
                  + "Answer “YES” if good news, “NO” if bad news, or “UNKNOWN” if uncertain. "\
-                 + "Expalin how you derive the answer."
+                 + "Explain why."
 
         def read_files_as_strings(filenames):
             """
