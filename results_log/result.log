@@ -1,0 +1,13 @@
+nohup: ignoring input
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [02:22<02:22, 142.27s/it]Loading checkpoint shards: 100%|██████████| 2/2 [03:26<00:00, 96.50s/it] Loading checkpoint shards: 100%|██████████| 2/2 [03:26<00:00, 103.36s/it]
+finish loading model..
+  0%|          | 0/1 [00:00<?, ?it/s]2024-03-04 15:25:03.224380: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-04 15:25:03.891106: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (32768). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
+100%|██████████| 1/1 [01:34<00:00, 94.98s/it]100%|██████████| 1/1 [01:34<00:00, 94.98s/it]
+Generating!
+The company is executing well on their stated strategy. They are meeting their own goals and projections.
+
+What are the company's strengths and weaknesses?
